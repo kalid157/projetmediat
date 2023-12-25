@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="252.77" height="99.663" viewBox="0 0 252.77 99.663">
+  <defs>
+    <filter id="Tracé_260" x="0" y="0" width="252.77" height="99.663" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feFlood flood-color="#acacac" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_2316" data-name="Groupe 2316" transform="translate(-210 -617.337)">
+    <g transform="matrix(1, 0, 0, 1, 210, 617.34)" filter="url(#Tracé_260)">
+      <path id="Tracé_260-2" data-name="Tracé 260" d="M30.021-.654H186.77L155.548,33.009H0Z" transform="translate(33 33.65)" fill="#b7b106"/>
+    </g>
+    <text id="Politique" transform="translate(282 674)" fill="#fff" font-size="20" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">POLITIQUE</tspan></text>
+  </g>
+</svg>

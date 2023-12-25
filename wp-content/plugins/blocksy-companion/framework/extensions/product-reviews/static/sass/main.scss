@@ -1,0 +1,24 @@
+@import '../../../../../static/sass/frontend/common-frontend/functions';
+@import '../../../../../static/sass/frontend/common-frontend/mixins';
+
+@import 'slider';
+@import 'title';
+@import 'scores';
+@import 'actions';
+@import 'description';
+@import 'quick-info';
+
+.ct-product-hero {
+	padding-top: var(--theme-content-vertical-spacing, 60px);
+
+	.ct-container {
+		padding-bottom: var(--theme-content-vertical-spacing, 60px);
+		border-bottom: 1px solid #ececec;
+	}
+
+	ul {
+		--theme-list-indent: 0;
+		--theme-list-style-type: none;
+		--theme-content-spacing: 0;
+	}
+}

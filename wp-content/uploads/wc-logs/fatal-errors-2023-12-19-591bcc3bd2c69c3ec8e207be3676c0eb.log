@@ -1,0 +1,2 @@
+2023-12-19T04:42:29+00:00 CRITICAL Out of memory (allocated 73400320 bytes) (tried to allocate 32768 bytes) in C:\xampp\htdocs\mediateur\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\OrderConfirmation\Downloads.php on line 1
+

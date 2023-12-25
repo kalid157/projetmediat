@@ -1,0 +1,391 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+/* .block-editor-page.gutenberg-editor-page{
+  div>div>div>div>div>div>{
+      button[tabindex="0"][type="button"]{
+    background-color: #1970ab !important;
+    border-radius: 3px !important;
+      }
+  }
+} */
+.wp-block-cgb-block-gosign-advanced-separator-block  {
+  background: $green;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+.gosign-advanced-separator-block button.components-button.svg-button.svg-button-icon {
+    text-align: center;
+    width: 100%;
+}
+.gosign-advanced-separator-block button.components-button.svg-button.svg-button-icon img {
+    width: 160px;
+}
+.gosign-advanced-separator-block .components-tab-panel__tabs > button {
+    height: 30px;
+    line-height: 26px;
+    margin-bottom: 14px;
+    margin: 0px -1px 12px 0px;
+    border-radius: 0px;
+}
+.outer-sep-container .iconImageB img {
+    display: block;
+    margin: auto;
+}
+.outer-sep-container.custPos-left .inner-sep-container > div.inner-mid .iconImageB img {
+    margin-left: 0;
+}
+.outer-sep-container.custPos-right .inner-sep-container > div.inner-mid .iconImageB img {
+    margin-right: 0;
+}
+.gosign-advanced-separator-block .components-tab-panel__tabs > button:active,
+.gosign-advanced-separator-block .components-tab-panel__tabs > button:focus {
+    border: 0 !important;
+    outline: 0 !important;
+}
+.gosign-advanced-separator-block .components-tab-panel__tabs > button.active-tab {
+    background-color: #1970ab;
+    color: #fff;
+    height: 32px !important;
+    margin-top: 0px !important;
+}
+.editor-block-list__block-edit .gosign-advanced-separator-block {
+    background-color: #f3f3f3;
+    padding: 10px 50px;
+    min-height: 30px;
+    margin: 0px -14px;
+}
+.gosign-advanced-separator-block .inner-sep-container h2 {
+    font-size: 13px;
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 0;
+    color: #777;
+        margin-top: 10px;
+}
+.outer-sep-container i.material-icons {
+    font-family: 'Material Icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+[data-type="gosign/block-gosign-advanced-separator-block"] {
+    .editor-block-list__block-edit{
+          margin-bottom: 42px;
+        &:before{
+            background-color: #f3f3f3 !important;
+            position: relative;
+        }
+        .gosign-advanced-separator-block{
+            position: relative;
+        }
+    }
+}
+.gosign-advanced-separator-block .material-icons-block [data-radium="true"] > div {
+    box-shadow: none !important;
+}
+.gosign-advanced-separator-block .material-icons-block{
+  position:relative;
+}
+.gosign-advanced-separator-block button.components-button.icon-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff !important;
+    padding: 0px 10px;
+      border:0px !important;
+    .remove-icon{
+      line-height: 32px;
+      font-family: Roboto, sans-serif;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      color: #fff !important;
+      border:0px !important;
+    }
+}
+.gosign-advanced-separator-block .material-icons-block button {
+    background-color: #1970ab !important;
+    border-radius: 3px !important;
+        height: 30px !important;
+            line-height: 32px !important;
+    span {
+    font-size: 13px !important;
+    text-transform: none !important;
+    }
+    div>div{
+      height: 30px !important;
+    }
+}
+.gosign-advanced-separator-block .material-icons-block i.material-icons {
+    padding: 10px 30px;
+}
+.outer-sep-container.sep-custom .inner-sep-container .inner-mid > i {
+    margin-top: -25px;
+}
+.outer-sep-container {
+  &.radius_true{
+    .GAB-border{
+      border-radius:150px;
+    }
+  }
+  &.custBorderThin{
+    .GAB-border {
+      height: 1px !important;
+    }
+  }
+  &.custBorderFat{
+    .GAB-border {
+      height: 2px !important;
+    }
+  }
+  &.custBorderNone{
+    .GAB-border {
+      height: 0px !important;
+    }
+  }
+  &.custPos-center{
+    .inner-left.GAB-border,
+    .inner-right.GAB-border{
+      margin:auto;
+    }
+  }
+}
+
+.outer-sep-container.sep-short.pos-center .border-cont.GAB-border {
+
+    background-color: #cf2e2e;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.outer-sep-container.sep-short.pos-left .border-cont.GAB-border {
+    margin: auto;
+    margin-left: 0;
+    margin-right: auto;
+}
+.outer-sep-container.sep-short.pos-right .border-cont.GAB-border {
+    margin: auto;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+.outer-sep-container.sep-invisible * {
+    background-color: transparent !important;
+    color: transparent !important;
+}
+.outer-sep-container.sep-full.style-no-shadow .border-cont.GAB-border {
+    width: 100% !important;
+}
+.outer-sep-container.sep-full.style-shadow .border-cont.GAB-border {
+    width: 100% !important;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    background-color: transparent !important;
+}
+.outer-sep-container.sep-big * {
+    background-color: transparent;
+    height: 0px !important;
+    color: transparent;
+}
+.outer-sep-container.sep-default .border-cont.GAB-border {
+    background-color: #ebebeb !important;
+    width: 100% !important;
+    height: 1px !important;
+}
+
+.outer-sep-container:after, .outer-sep-container:before {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.outer-sep-container.sep-short.pos-center .border-cont.GAB-border{
+  margin:auto;
+  display: block;
+}
+
+.outer-sep-container.custPos-center .inner-sep-container > div,
+.outer-sep-container.custPos-right .inner-sep-container > div,
+.outer-sep-container.custPos-left .inner-sep-container > div {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.outer-sep-container.custPos-center .inner-mid,
+.outer-sep-container.custPos-right .inner-mid,
+.outer-sep-container.custPos-left .inner-mid {
+    display: inline-block;
+    vertical-align: middle;
+    z-index:0;
+}
+
+
+.outer-sep-container.custPos-center .inner-mid  .material-icons,
+.outer-sep-container.custPos-right .inner-mid  .material-icons,
+.outer-sep-container.custPos-left .inner-mid  .material-icons{
+    margin: -10px 0px;
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    font-style: normal;
+}
+.outer-sep-container.custPos-center .inner-left.GAB-border,
+.outer-sep-container.custPos-center .inner-right.GAB-border,
+
+.outer-sep-container.custPos-right .inner-left.GAB-border,
+.outer-sep-container.custPos-right .inner-right.GAB-border,
+
+.outer-sep-container.custPos-left .inner-left.GAB-border,
+.outer-sep-container.custPos-left .inner-right.GAB-border{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.outer-sep-container.custPos-center .inner-right.GAB-border{
+    margin-left: 2%;
+    margin-right: 0px;
+}
+.outer-sep-container.custPos-center .inner-left.GAB-border{
+    margin-right: 2%;
+    margin-left: 0px;
+}
+
+.outer-sep-container.custPos-right .inner-left.GAB-border{
+    margin-left: 0;
+    margin-right: 2%;
+}
+.outer-sep-container.custPos-right .inner-right.GAB-border{
+    margin-left: 2%;
+    margin-right: 0px;
+}
+
+.outer-sep-container.custPos-left .inner-left.GAB-border{
+    margin-left: 0;
+    margin-right: 2%;
+}
+.outer-sep-container.custPos-left .inner-right.GAB-border{
+    margin-left: 2%;
+    margin-right: 0px;
+}
+
+.outer-sep-container.custPos-left .inner-mid .material-icons{
+    margin-right:auto !important;
+}
+.outer-sep-container.custPos-right .inner-mid .material-icons{
+    margin-left:auto !important;
+}
+
+.outer-sep-container.custPos-left .inner-sep-container{
+    text-align:left;
+}
+.outer-sep-container.custPos-left .inner-sep-container .inner-mid {
+    padding-left: 0;
+}
+
+.outer-sep-container.custPos-left .inner-sep-container > div .material-icons {
+    text-align: left;
+}
+
+.outer-sep-container.custPos-right .inner-sep-container{
+    text-align:right;
+}
+.outer-sep-container.custPos-right .inner-sep-container .inner-mid {
+    margin-left: -12px;
+}
+.outer-sep-container.custPos-center .inner-sep-container > div.inner-mid .iconImageB {
+/*     margin-top: 22px !important; */
+}
+.outer-sep-container.custPos-right .inner-sep-container > div.inner-mid .iconImageB {
+/*     margin-top: 22px !important;
+    padding-right: 13px; */
+}
+.outer-sep-container.custPos-right .inner-sep-container > div .material-icons {
+    text-align: right;
+    margin-top: 0px;
+    padding-right: 0;
+}
+.outer-sep-container.custPos-center .inner-sep-container > div {
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 0px;
+}
+.outer-sep-container.custPos-right .inner-sep-container > div {
+    left: auto;
+    right: 0;
+    top: 0;
+}
+
+.outer-sep-container.custPos-center .inner-sep-container,
+.outer-sep-container.custPos-right .inner-sep-container,
+.outer-sep-container.custPos-left .inner-sep-container{
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 25px;
+    line-height: 0;
+    position: relative;
+    margin: 30px 0;
+    float: left;
+    margin: 0;
+    display: block;
+    min-height: 21px;
+    height: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.outer-sep-container.sep-custom.custPos-center .inner-sep-container .inner-mid > i{
+
+}
+.outer-sep-container.custPos-center .inner-mid .material-icons{
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.outer-sep-container.sep-custom.custPos-center .inner-sep-container .inner-mid > i {
+    margin-top: 0px;
+}
+.outer-sep-container.custPos-center .inner-sep-container,
+.outer-sep-container.custPos-right .inner-sep-container,
+.outer-sep-container.custPos-left .inner-sep-container{
+    overflow:visible;
+}
+.outer-sep-container.custPos-left .inner-sep-container{
+    text-align:left;
+}
+.outer-sep-container.custPos-right .inner-sep-container{
+    text-align:right;
+}
+.gosign-advanced-separator-block .components-panel__body.borderColSettingCus,
+.gosign-advanced-separator-block .components-panel__body.iconSettingCus {
+    margin-left: -16px !important;
+}
+
+[data-type="gosign/block-gosign-advanced-separator-block"] .editor-block-list__block-edit:before,.editor-block-list__block-edit .gosign-advanced-separator-block {
+    background-color: #fff !important;
+}
+

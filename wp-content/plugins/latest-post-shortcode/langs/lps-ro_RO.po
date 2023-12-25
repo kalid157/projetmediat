@@ -1,0 +1,1631 @@
+# Copyright (C) 2023 Iulia Cazan
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Latest Post Shortcode 11.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lps\n"
+"POT-Creation-Date: 2023-09-09T12:51:59+00:00\n"
+"PO-Revision-Date: 2023-11-19 17:38+0200\n"
+"Last-Translator: Iulia Cazan\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Domain: lps\n"
+
+#. Plugin Name of the plugin
+#: elementor/widgets/class-lps-widgets.php:29
+#: elementor/widgets/class-lps-widgets.php:56
+#: elementor/widgets/class-lps-widgets.php:79 latest-post-shortcode.php:524
+#: latest-post-shortcode.php:756 latest-post-shortcode.php:4794
+#: lps-block/build/index.js:1
+msgid "Latest Post Shortcode"
+msgstr "Cod Rapid Articole Recente"
+
+#. Plugin URI of the plugin
+msgid "https://iuliacazan.ro/latest-post-shortcode/"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin allows you to create a dynamic content selection from your posts, pages and custom post types that can be embedded with a UI configurable shortcode. When used with WordPress >= 5.0 + Gutenberg, the plugin shortcode can be configured from the LPS block or any Classic block, using the plugin button."
+msgstr "Acest modul vă permite să generați o selecție dinamică de conținut din articolele, paginile și tipurile personalizate articole ale dumneavoastră, ce poate fi configurată folosind o interfață de utilizare și inserată în pagini ca și scurtcod. Când se folosește cu WordPress >= 5.0 + Gutenberg, modulul poate fi configurat din orice bloc Clasic, folosind butonul modulului."
+
+#. Author of the plugin
+msgid "Iulia Cazan"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/iulia-cazan"
+msgstr ""
+
+#. Translators: 1: Plugin name 2: Elementor
+#: elementor/class-elementor-lps-extension.php:127
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr "\"%1$s\" necesită ca \"%2$s\" să fie instalat și activat."
+
+#: elementor/class-elementor-lps-extension.php:128
+#: elementor/class-elementor-lps-extension.php:147
+#: elementor/class-elementor-lps-extension.php:171
+msgid "LPS Elementor Extension"
+msgstr "Extensie LPS pentru Elementor"
+
+#: elementor/class-elementor-lps-extension.php:129
+#: elementor/class-elementor-lps-extension.php:148
+msgid "Elementor"
+msgstr "Elementor"
+
+#. Translators: %1$s - plugin name, %2$s - required, %3$s - required version.
+#: elementor/class-elementor-lps-extension.php:146
+#: elementor/class-elementor-lps-extension.php:170
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "\"%1$s\" necesită ca \"%2$s\" să fie cel puțin %3$s."
+
+#: elementor/class-elementor-lps-extension.php:172
+msgid "PHP"
+msgstr "PHP"
+
+#: elementor/widgets/class-lps-widgets.php:74
+msgid "Read more"
+msgstr "Citește mai mult"
+
+#. Translators: %1$s - icon embed.
+#: elementor/widgets/class-lps-widgets.php:89
+msgid "To configure the shortcode, use the custom button %1$s from the Visual editor or the LPS button from the Text editor (see a sample below)."
+msgstr "Pentru a configura scurtcodul, folosiți butonul personalizat %1$s din editorul Vizual sau butonul LPS din editorul Text (vedeți un exemplu mai jos)."
+
+#. Translators: %1$s - shorcode example.
+#: elementor/widgets/class-lps-widgets.php:94
+msgid "Sample of showing four columns of your posts: %1$s."
+msgstr "Exemplu de afișare articole pe patru coloane: %1$s."
+
+#: latest-post-shortcode.php:252
+msgid "The Latest Post Shortcode Slider Extension is no longer supported, and it has been deactivated. If you need to display posts as a slider you can find the settings integrated in the Latest Post Shortcode plugin"
+msgstr "Extensia Cod Rapid Carusel Articole Selectate nu mai este suportată și a fost dezactivată. Dacă este necesară afișarea unui carusel din articole, aceste setări sunt integrate în modulul Cod Rapid Articole Selectate"
+
+#: latest-post-shortcode.php:292
+msgid "months"
+msgstr "luni"
+
+#: latest-post-shortcode.php:293
+msgid "weeks"
+msgstr "săptămâni"
+
+#: latest-post-shortcode.php:294
+msgid "days"
+msgstr "zile"
+
+#: latest-post-shortcode.php:295
+msgid "hours"
+msgstr "ore"
+
+#: latest-post-shortcode.php:309
+msgid "Date Descending"
+msgstr "Data descrescătoare"
+
+#: latest-post-shortcode.php:314
+msgid "Date Ascending"
+msgstr "Data ascendentă"
+
+#: latest-post-shortcode.php:319
+msgid "Menu Order Descending"
+msgstr "Ordine descendentă meniu"
+
+#: latest-post-shortcode.php:324
+msgid "Menu Order Ascending"
+msgstr "Ordine ascendentă meniu"
+
+#: latest-post-shortcode.php:329
+msgid "Title Descending"
+msgstr "Titlu în ordine descendentă"
+
+#: latest-post-shortcode.php:334
+msgid "Title Ascending"
+msgstr "Titlu în ordine ascendentă"
+
+#: latest-post-shortcode.php:339
+msgid "ID Descending"
+msgstr "ID în ordine descendentă"
+
+#: latest-post-shortcode.php:344
+msgid "ID Ascending"
+msgstr "ID în ordine ascendentă"
+
+#: latest-post-shortcode.php:349
+msgid "Random *"
+msgstr "Aleatoriu *"
+
+#: latest-post-shortcode.php:354
+msgid "Text Meta Value Descending"
+msgstr "Meta valoare text în ordine descendentă"
+
+#: latest-post-shortcode.php:359
+msgid "Text Meta Value Ascending"
+msgstr "Meta valoare text în ordine ascendentă"
+
+#: latest-post-shortcode.php:364
+msgid "Numeric Meta Value Descending"
+msgstr "Meta valoare numerică în ordine descendentă"
+
+#: latest-post-shortcode.php:369
+msgid "Numeric Meta Value Ascending"
+msgstr "Meta valoare numerică în ordine ascendentă"
+
+#: latest-post-shortcode.php:374
+msgid "Relevance *"
+msgstr "Relevanță *"
+
+#: latest-post-shortcode.php:381
+msgid "before title"
+msgstr "înaintea titlului"
+
+#: latest-post-shortcode.php:382
+msgid "after title"
+msgstr "după titlu"
+
+#: latest-post-shortcode.php:383
+msgid "before image"
+msgstr "înaintea imaginii"
+
+#: latest-post-shortcode.php:384
+msgid "after image"
+msgstr "după imagine"
+
+#: latest-post-shortcode.php:385
+msgid "before text"
+msgstr "înaintea textului"
+
+#: latest-post-shortcode.php:386
+msgid "after text"
+msgstr "după text"
+
+#: latest-post-shortcode.php:387
+msgid "before read more text"
+msgstr "înainte de textul citește mai mult"
+
+#: latest-post-shortcode.php:388
+msgid "after read more text"
+msgstr "după textul citește mai mult"
+
+#: latest-post-shortcode.php:389
+msgid "before date"
+msgstr "înaintea datei"
+
+#: latest-post-shortcode.php:390
+msgid "after date"
+msgstr "după dată"
+
+#: latest-post-shortcode.php:402
+msgid "Title"
+msgstr "Titlu"
+
+#: latest-post-shortcode.php:403
+msgid "Title + Post Excerpt"
+msgstr "Titlu + Extras"
+
+#: latest-post-shortcode.php:404
+msgid "Title + Post Content"
+msgstr "Titlu + Conținut articol"
+
+#: latest-post-shortcode.php:405
+msgid "Title + Few Chars From The Excerpt"
+msgstr "Titlu + Câteva caractere din extras"
+
+#: latest-post-shortcode.php:406
+msgid "Title + Few Chars From The Content"
+msgstr "Titlu + Câteva caractere din conținut"
+
+#: latest-post-shortcode.php:407
+msgid "Date"
+msgstr "Dată"
+
+#: latest-post-shortcode.php:408
+msgid "Title + Date"
+msgstr "Titlu + Dată"
+
+#: latest-post-shortcode.php:409
+msgid "Title + Date + Post Excerpt"
+msgstr "Titlu + Dată + Extras articol"
+
+#: latest-post-shortcode.php:410
+msgid "Title + Date + Post Content"
+msgstr "Titlu + Dată + Conținut articol"
+
+#: latest-post-shortcode.php:411
+msgid "Title + Date + Few Chars From The Excerpt"
+msgstr "Titlu + Dată + Câteva caractere din extras"
+
+#: latest-post-shortcode.php:412
+msgid "Title + Date + Few Chars From The Content"
+msgstr "Titlu + Dată + Câteva caractere din conținut"
+
+#: latest-post-shortcode.php:413
+msgid "Date + Title"
+msgstr "Dată + Titlu"
+
+#: latest-post-shortcode.php:414
+msgid "Date + Title + Post Excerpt"
+msgstr "Dată + Titlu + Extras articol"
+
+#: latest-post-shortcode.php:415
+msgid "Date + Title + Post Content"
+msgstr "Dată + Titlu + Conținut articol"
+
+#: latest-post-shortcode.php:416
+msgid "Date + Title + Few Chars From The Excerpt"
+msgstr "Dată + Titlu + Câteva caractere din extras"
+
+#: latest-post-shortcode.php:417
+msgid "Date + Title + Few Chars From The Content"
+msgstr "Dată + Titlu + Câteva caractere din conținut"
+
+#: latest-post-shortcode.php:418
+msgid "Date + Title + Post Excerpt + Post Content"
+msgstr "Dată + Titlu + Extras articol + Conținut articol"
+
+#: latest-post-shortcode.php:419
+msgid "Date + Title + Post Content + Post Excerpt"
+msgstr "Dată + Titlu + Conținut articol + Extras articol"
+
+#: latest-post-shortcode.php:678
+msgid "-- unspecified --"
+msgstr "-- nespecificat --"
+
+#: latest-post-shortcode.php:679
+msgid "vertical card"
+msgstr "card vertical"
+
+#: latest-post-shortcode.php:680
+msgid "horizontal card: image + info"
+msgstr "card orizontal: imagine + info"
+
+#: latest-post-shortcode.php:681
+msgid "horizontal card: info + image"
+msgstr "card orizontal: info + imagine"
+
+#: latest-post-shortcode.php:682
+msgid "overlay"
+msgstr "strat"
+
+#: latest-post-shortcode.php:759
+msgid "Embed Shortcode"
+msgstr "Inserează Scurtcod"
+
+#: latest-post-shortcode.php:760
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: latest-post-shortcode.php:765
+msgid "Reset Cache"
+msgstr "Resetare cache"
+
+#: latest-post-shortcode.php:767
+msgid "Settings"
+msgstr "Setări"
+
+#: latest-post-shortcode.php:769 latest-post-shortcode.php:784
+msgid "Output Type"
+msgstr "Tip afișare"
+
+#: latest-post-shortcode.php:770 latest-post-shortcode.php:819
+msgid "Content & Filters"
+msgstr "Conținut & filtre"
+
+#: latest-post-shortcode.php:771 latest-post-shortcode.php:1084
+msgid "Limit & Pagination"
+msgstr "Limită & paginare"
+
+#: latest-post-shortcode.php:772 latest-post-shortcode.php:1245
+msgid "Display Settings"
+msgstr "Setări afișare"
+
+#: latest-post-shortcode.php:773 latest-post-shortcode.php:1489
+msgid "Extra Options"
+msgstr "Extra opțiuni"
+
+#: latest-post-shortcode.php:790
+msgid "Version"
+msgstr "Versiune"
+
+#: latest-post-shortcode.php:794
+msgid "1 (available for < 11.0.0 - will be deprecated in future versions)"
+msgstr "1 (disponibilă pentru < 11.0.0 - nu va fi menținută în versiunile viitoare)"
+
+#: latest-post-shortcode.php:795
+msgid "2 (recommended starting with 11.0.0)"
+msgstr "2 (recomandată începând cu 11.0.0)"
+
+#: latest-post-shortcode.php:801
+msgid "Display as"
+msgstr "Afișare ca"
+
+#: latest-post-shortcode.php:809
+msgid "post grid/list/tiles"
+msgstr "grilă/listă/blocuri de articole"
+
+#: latest-post-shortcode.php:810 latest-post-shortcode.php:2170
+msgid "slider"
+msgstr "carusel"
+
+#: latest-post-shortcode.php:821
+msgid "Post Types, Status & Order"
+msgstr "Tipuri articole, stare & ordine"
+
+#: latest-post-shortcode.php:829
+msgid "Site ID"
+msgstr "ID sit"
+
+#: latest-post-shortcode.php:832
+msgid "Current site"
+msgstr "Sit curent"
+
+#: latest-post-shortcode.php:844
+msgid "Post Type"
+msgstr "Tip articol"
+
+#: latest-post-shortcode.php:847 latest-post-shortcode.php:908
+#: latest-post-shortcode.php:933
+msgid "Any"
+msgstr "Oricare"
+
+#: latest-post-shortcode.php:860
+msgid "Post Status"
+msgstr "Stare articol"
+
+#: latest-post-shortcode.php:872
+msgid "Sticky Posts"
+msgstr "Articole evidențiate"
+
+#: latest-post-shortcode.php:874
+msgid "no restriction"
+msgstr "fără restricție"
+
+#: latest-post-shortcode.php:876
+msgid "only sticky posts"
+msgstr "doar articole evidențiate"
+
+#: latest-post-shortcode.php:878
+msgid "no sticky posts"
+msgstr "fără articole evidențiate"
+
+#: latest-post-shortcode.php:882
+msgid "Order by"
+msgstr "Ordonare după"
+
+#: latest-post-shortcode.php:890
+msgid "Post meta (ex: _price)"
+msgstr "Meta articol (ex: _price)"
+
+#: latest-post-shortcode.php:891
+msgid "* Please note that ordering the items by post meta might present performance risks, please use this careful. Additionally, the output will be filtered only to the posts that have the specified post meta."
+msgstr "* Notă: ordonarea articolelor după meta prezintă riscuri pentru performanță, a se folosi cu precauție. În plus, rezultatul afișat va fi filtrat doar pentru articolele care au meta-ul specificat."
+
+#: latest-post-shortcode.php:894
+msgid "* Please note that ordering the items by random might present performance risks, please use this careful."
+msgstr "* Notă: ordonarea aleatorie a articolelor prezintă riscuri pentru performanță, a se folosi cu precauție."
+
+#: latest-post-shortcode.php:894
+msgid "Also, using a random order and pagination will output unexpected and potentially redundant content."
+msgstr "De asemenea, folosirea ordinii aleatorii împreună cu paginarea duce la afișări neașteptate și conținut potențial redundant."
+
+#: latest-post-shortcode.php:902
+msgid "Filter By Taxonomy"
+msgstr "Filtrează după taxonomie"
+
+#: latest-post-shortcode.php:905 latest-post-shortcode.php:930
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: latest-post-shortcode.php:919 latest-post-shortcode.php:943
+msgid "Term"
+msgstr "Termen"
+
+#: latest-post-shortcode.php:921 latest-post-shortcode.php:945
+msgid "Term slug (ex: news)"
+msgstr "Descriptor termen (ex: noutati)"
+
+#: latest-post-shortcode.php:925 latest-post-shortcode.php:949
+msgid "exclude children"
+msgstr "exclude copiii"
+
+#: latest-post-shortcode.php:957
+msgid "Filter By Tag"
+msgstr "Filtrează după etichetă"
+
+#: latest-post-shortcode.php:960
+msgid "Tag"
+msgstr "Etichetă"
+
+#: latest-post-shortcode.php:964 latest-post-shortcode.php:1043
+msgid "Dynamic"
+msgstr "Dinamic"
+
+#: latest-post-shortcode.php:967
+msgid "No, use the selected ones"
+msgstr "Nu, folosește selecția"
+
+#: latest-post-shortcode.php:968
+msgid "Yes, use the current post tags"
+msgstr "Da, folosește etichetele articolului curent"
+
+#: latest-post-shortcode.php:976
+msgid "Search & Archive Filter"
+msgstr "Filtru căutare & arhivă"
+
+#: latest-post-shortcode.php:979
+msgid "Search Key"
+msgstr "Cheie de căutare"
+
+#: latest-post-shortcode.php:983
+msgid "Use as Archive"
+msgstr "Folosește ca arhivă"
+
+#: latest-post-shortcode.php:986 latest-post-shortcode.php:1157
+msgid "No"
+msgstr "Nu"
+
+#: latest-post-shortcode.php:987
+msgid "Yes, use the current search key or taxonomy term"
+msgstr "Da, folosește cheia de căutare curentă sau termenul curent al taxonomiei"
+
+#: latest-post-shortcode.php:990
+msgid "If you enable this option, the rest of taxonomies filters will not apply. This option is only intended to mimic the native archives (categories, tags, etc.) or the search result. If you are using pagination, the number of posts per page is inherited from the site reading settings."
+msgstr "Dacă activați această opțiune, restul filtrelor pentru taxonomie nu se vor aplica. Această opțiune are ca scop doar imitarea arhivelor native (categorii, etichete, ete.) sau rezultatele căutării. Numărul de articole pe pagină va fi moștenit din setările de citire ale sitului, dacă folosiți paginarea."
+
+#: latest-post-shortcode.php:998
+msgid "Filter By Specific IDs"
+msgstr "Filtrează după ID-uri specifice"
+
+#: latest-post-shortcode.php:1001
+msgid "Post ID"
+msgstr "ID articol"
+
+#: latest-post-shortcode.php:1003 latest-post-shortcode.php:1013
+#: latest-post-shortcode.php:1026 latest-post-shortcode.php:1052
+#: latest-post-shortcode.php:1059
+msgid "Separate IDs with comma"
+msgstr "Separă ID-urile cu virgulă"
+
+#: latest-post-shortcode.php:1003
+msgid "Show only objects with the selected IDs."
+msgstr "Arată doar obiectele cu ID-urile selectate."
+
+#: latest-post-shortcode.php:1006
+msgid "Parent ID"
+msgstr "ID părinte"
+
+#: latest-post-shortcode.php:1009 latest-post-shortcode.php:1022
+msgid "Static, use the specified IDs"
+msgstr "Static, folosește ID-urile specificate"
+
+#: latest-post-shortcode.php:1010 latest-post-shortcode.php:1023
+msgid "Dynamic, use the current post attributes"
+msgstr "Dinamic, folosește atributele articolului curent"
+
+#: latest-post-shortcode.php:1015
+msgid "Show only objects with specific parents."
+msgstr "Arată doar obiectele cu anumiți părinți."
+
+#: latest-post-shortcode.php:1019
+msgid "Author ID"
+msgstr "ID autor"
+
+#: latest-post-shortcode.php:1027
+msgid "Show only objects with specific authors."
+msgstr "Arată doar obiectele cu anumiți autori."
+
+#: latest-post-shortcode.php:1034
+msgid "Exclude Content"
+msgstr "Excludere de conținut"
+
+#: latest-post-shortcode.php:1037
+msgid "Current"
+msgstr "Curent"
+
+#: latest-post-shortcode.php:1039
+msgid "the current post"
+msgstr "articolul curent"
+
+#: latest-post-shortcode.php:1045
+msgid "previous shortcodes*"
+msgstr "scurtcodurile precedente*"
+
+#: latest-post-shortcode.php:1046
+msgid "* The exclude content dynamic option will filter the content so that the posts that were already embedded by previous shortcodes on this page will not show up (so that the content does not repeat)."
+msgstr "* Opțiunea de excludere dinamică a conținutului va filtra conținutul în așa fel încât articolele care sunt deja afișate pe pagina curentă cu codurile rapide de mai sus din pagină să nu apară (să nu se repete)."
+
+#: latest-post-shortcode.php:1050
+msgid "By Post ID"
+msgstr "După ID articol"
+
+#: latest-post-shortcode.php:1053
+msgid "Exclude the objects with the selected IDs."
+msgstr "Exclude obiectele cu ID-urile selectate."
+
+#: latest-post-shortcode.php:1057
+msgid "By Author ID"
+msgstr "După ID autor"
+
+#: latest-post-shortcode.php:1060
+msgid "Exclude the objects with the selected author IDs."
+msgstr "Exclude articolele cu autorii selectați."
+
+#: latest-post-shortcode.php:1065
+msgid "By Tags"
+msgstr "După etichete"
+
+#: latest-post-shortcode.php:1067 latest-post-shortcode.php:1075
+msgid "Separate slugs with comma"
+msgstr "Separă descriptorii cu virgulă"
+
+#: latest-post-shortcode.php:1068
+msgid "Exclude the objects with the selected tags."
+msgstr "Exclude obiectele cu etichetele selectate."
+
+#: latest-post-shortcode.php:1073
+msgid "By Categories"
+msgstr "După categorii"
+
+#: latest-post-shortcode.php:1076
+msgid "Exclude the objects with the selected categories."
+msgstr "Exclude obiectele cu categoriile selectate."
+
+#: latest-post-shortcode.php:1087
+msgid "Posts Limit"
+msgstr "Limită articole"
+
+#: latest-post-shortcode.php:1090
+msgid "Number of Posts"
+msgstr "Număr de articole"
+
+#: latest-post-shortcode.php:1093
+msgid "This is the maximum number of posts the shortcode will expose."
+msgstr "Acesta este numărul maxim de articole pe care le expune scurtcodul."
+
+#: latest-post-shortcode.php:1098
+msgid "Date Limit"
+msgstr "Limită după dată"
+
+#: latest-post-shortcode.php:1101
+msgid "Date Limit Type"
+msgstr "Tip limită după dată"
+
+#: latest-post-shortcode.php:1104
+msgid "Date Range"
+msgstr "Interval dată"
+
+#: latest-post-shortcode.php:1105
+msgid "Dynamic Date"
+msgstr "Dată dinamică"
+
+#: latest-post-shortcode.php:1114
+msgid "Published After"
+msgstr "Publicat după"
+
+#: latest-post-shortcode.php:1121
+msgid "Published Before"
+msgstr "Publicat înainte de"
+
+#: latest-post-shortcode.php:1132
+msgid "Since"
+msgstr "De când"
+
+#: latest-post-shortcode.php:1143
+msgid "ago"
+msgstr "acum"
+
+#: latest-post-shortcode.php:1150
+msgid "Pagination Settings"
+msgstr "Setări paginare"
+
+#: latest-post-shortcode.php:1154
+msgid "Use Pagination"
+msgstr "Folosește paginarea"
+
+#: latest-post-shortcode.php:1158
+msgid "Yes, paginate results"
+msgstr "Da, paginează rezultatele"
+
+#: latest-post-shortcode.php:1161
+msgid "Please note that paginated items are limited to the number of posts specified above. If you do not want to limit the result, just remove the value from the number of posts."
+msgstr "Vă rugăm să rețineți că elementele paginate sunt limitate la numărul de articole specificat mai sus. Dacă nu doriți să limitați rezultatul, doar eliminați valoarea de la numărul de articole."
+
+#: latest-post-shortcode.php:1170
+msgid "Records Per Page"
+msgstr "Articole pe pagină"
+
+#: latest-post-shortcode.php:1176
+msgid "Offset"
+msgstr "Start"
+
+#: latest-post-shortcode.php:1182
+msgid "Visibility"
+msgstr "Vizibilitate"
+
+#: latest-post-shortcode.php:1185
+msgid "Hide Navigation"
+msgstr "Ascunde navigarea"
+
+#: latest-post-shortcode.php:1186
+msgid "Show Navigation (range of 4)"
+msgstr "Afișează navigarea (interval de 4)"
+
+#: latest-post-shortcode.php:1187
+msgid "Show Navigation (range of 5)"
+msgstr "Afișează navigarea (interval de 5)"
+
+#: latest-post-shortcode.php:1188
+msgid "Show Navigation (range of 10)"
+msgstr "Afișează navigarea (interval de 10)"
+
+#: latest-post-shortcode.php:1189
+msgid "Show Navigation (load more button)"
+msgstr "Afișează navigarea (buton încarcă mai mult)"
+
+#: latest-post-shortcode.php:1190
+msgid "Infinite scroll (load more on scroll)"
+msgstr "Derulare infinită (încarcă mai mult la derulare)"
+
+#: latest-post-shortcode.php:1195
+msgid "Load More Text"
+msgstr "Text încarcă mai mult"
+
+#: latest-post-shortcode.php:1197
+msgid "Custom 'Load more' button text"
+msgstr "Mesaj personalizat buton 'încarcă mai mult'"
+
+#: latest-post-shortcode.php:1197 latest-post-shortcode.php:2499
+msgid "Load more"
+msgstr "Încarcă mai mult"
+
+#: latest-post-shortcode.php:1198
+msgid "This is the text that will be displayed on the button on the front-end. Do not use brackets for the custom load more message, these are shortcodes delimiters."
+msgstr "Acesta este textul care se va afișa pe buton pe partea din față. Nu folosiți paranteze drepte pentru mesajul personalizat de încarcă mai mult, acestea sunt delimitatori de scurtcoduri."
+
+#: latest-post-shortcode.php:1202
+msgid "Position"
+msgstr "Poziție"
+
+#: latest-post-shortcode.php:1205
+msgid "Above the results"
+msgstr "Deasupra rezultatelor"
+
+#: latest-post-shortcode.php:1206
+msgid "Below the results"
+msgstr "Sub rezultate"
+
+#: latest-post-shortcode.php:1207
+msgid "Above & below the result"
+msgstr "Deasupra și sub rezultat"
+
+#: latest-post-shortcode.php:1212
+msgid "AJAX Pagination"
+msgstr "Paginare AJAX"
+
+#: latest-post-shortcode.php:1214 latest-post-shortcode.php:1809
+#: latest-post-shortcode.php:1816 latest-post-shortcode.php:1828
+#: latest-post-shortcode.php:1835 latest-post-shortcode.php:1847
+#: latest-post-shortcode.php:1854 latest-post-shortcode.php:1875
+#: latest-post-shortcode.php:1903 latest-post-shortcode.php:1914
+#: latest-post-shortcode.php:1925 latest-post-shortcode.php:2051
+#: latest-post-shortcode.php:2128 latest-post-shortcode.php:2137
+#: latest-post-shortcode.php:2146 latest-post-shortcode.php:2155
+#: latest-post-shortcode.php:2204 latest-post-shortcode.php:2213
+#: latest-post-shortcode.php:2244 latest-post-shortcode.php:2253
+msgid "yes"
+msgstr "da"
+
+#: latest-post-shortcode.php:1215
+msgid "no spinner"
+msgstr "fără spinner"
+
+#: latest-post-shortcode.php:1217
+msgid "light spinner"
+msgstr "spinner deschis"
+
+#: latest-post-shortcode.php:1218
+msgid "dark spinner"
+msgstr "spiner închis"
+
+#: latest-post-shortcode.php:1223
+msgid "Pagination Style"
+msgstr "Stil paginare"
+
+#: latest-post-shortcode.php:1225
+msgid "all pagination elements"
+msgstr "toate elementele paginării"
+
+#: latest-post-shortcode.php:1226
+msgid "Tick this option if you need to display the pagination elements all the time, including the disabled elements like: go to first, previous, next, and last page, even if these are disabled."
+msgstr "Bifează această opțiune dacă este nevoie de afișarea tuturor elementelor paginării tot timpul, inclusiv a elementelor dezactivate, ca de exemplu: mergi la prima, precedenta, următoarea sau ultima pagină (chiar dacă nu au nici o acțiune)."
+
+#: latest-post-shortcode.php:1228
+msgid "show total items"
+msgstr "afișare total articole"
+
+#. Translators: %d - total value.
+#: latest-post-shortcode.php:1230
+msgid "Custom 'Total items: %d' text"
+msgstr "Text 'Total articole: %d' personalizat"
+
+#. Translators: %d - total value.
+#: latest-post-shortcode.php:1230 latest-post-shortcode.php:2725
+msgid "Total items: %d"
+msgstr "Total articole: %d"
+
+#. Translators: %d - total value.
+#: latest-post-shortcode.php:1231
+msgid "Write the total items text, %d will be replaced by the total value. Leave empty for the default."
+msgstr "Scrieți textul pentru totalul de articole, %d va fi înlocuit cu valoarea totalului. Lăsați gol pentru textul implicit."
+
+#: latest-post-shortcode.php:1239
+msgid "The pagination is not available for sliders, only for list/tiles output."
+msgstr "Paginarea nu este disponibilă pentru carusel, numai pentru grilă/listă/blocuri de articole."
+
+#: latest-post-shortcode.php:1253
+msgid "Post Appearance"
+msgstr "Aspect articol"
+
+#: latest-post-shortcode.php:1257
+msgid "Display Post"
+msgstr "Afișare articol"
+
+#: latest-post-shortcode.php:1279
+msgid "Title Wrap"
+msgstr "Împachetare titlu"
+
+#: latest-post-shortcode.php:1286
+msgid "This is the HTML tag used to wrap the post title in the output (defaults to h3)."
+msgstr "Acesta este elementul HTML folosit pentru a împacheta titlul articolului la afișare (implicit ca h3)."
+
+#: latest-post-shortcode.php:1294
+msgid "Chars Limit"
+msgstr "Limită caractere"
+
+#: latest-post-shortcode.php:1297
+msgid "Maximum number of chars from excerpt / content to be displayed (the text will be truncated, but will not break words)."
+msgstr "Numărul maxim de caractere din extras / conținut care se afișează (textul va fi trunchiat, dar nu va tăia cuvintele)."
+
+#: latest-post-shortcode.php:1301
+msgid "Trim type"
+msgstr "Tip trunchiere"
+
+#: latest-post-shortcode.php:1303
+msgid "limit the title and text together"
+msgstr "limitează titlul și textul împreună"
+
+#: latest-post-shortcode.php:1304
+msgid "Apply the chars limit to title and excerpt/content together (the excerpt/content length will be computed by subtracting the title length from the chars limit)."
+msgstr "Aplică limita de caractere titlului împreună cu extrasul/conținutul (limita extrasul/conținutul va fi calculată ca diferența dintre limita de caractere și lungimea titlului)."
+
+#: latest-post-shortcode.php:1308
+msgid "More Suffix"
+msgstr "Sufix mai mult"
+
+#: latest-post-shortcode.php:1311
+msgid "The extra chars to be appended at the end of the trimmed strings."
+msgstr "Caracterele extra care se vor adăuga la sfârșitul șirurilor de caractere scurtate."
+
+#: latest-post-shortcode.php:1319
+msgid "Raw Content"
+msgstr "Conținut brut"
+
+#: latest-post-shortcode.php:1321
+msgid "show raw content"
+msgstr "arată conținut brut"
+
+#: latest-post-shortcode.php:1322
+msgid "This option is forcing the content output without stripping the markup. This might produce unexpected content layout on the front end, use wisely."
+msgstr "Această opțiune forțează afișarea conținutului fără înlăturarea marcatorilor. Acest lucru ar putea produce așezarea neprevăzută a conținutului în partea frontală, a se folosi cu precauție."
+
+#: latest-post-shortcode.php:1330
+msgid "Date Option"
+msgstr "Opțiune dată"
+
+#: latest-post-shortcode.php:1332
+msgid "as date difference"
+msgstr "ca diferentă de dată"
+
+#: latest-post-shortcode.php:1333
+msgid "If you check this option, the date for the tile (if that is included in the tile format) will display in date difference format (like 2 hours ago or 1 day ago, etc.)."
+msgstr "Dacă bifați această opțiune, data pentru element (dacă aceasta este inclusă în formatul elementului) se va afișa în fomat de diferență de dată (asemănător cu acum 2 ore sau acum o zi, etc.)"
+
+#: latest-post-shortcode.php:1342
+msgid "Use Post URL"
+msgstr "Folosește legătură articol"
+
+#: latest-post-shortcode.php:1345
+msgid "No link to the post"
+msgstr "Nicio legătură la articol"
+
+#: latest-post-shortcode.php:1346
+msgid "Link to the post"
+msgstr "Legătură la articol"
+
+#: latest-post-shortcode.php:1347
+msgid "Link to the post (_blank)"
+msgstr "Legătură la articol (_blank)"
+
+#: latest-post-shortcode.php:1348
+msgid "Link to the media file"
+msgstr "Legătură la fișierul media"
+
+#: latest-post-shortcode.php:1349
+msgid "Link to the media file (_blank)"
+msgstr "Legătură la fișierul media (_blank)"
+
+#: latest-post-shortcode.php:1350
+msgid "Link to the media file with lightbox"
+msgstr "Legătură la fișierul media cu lightbox"
+
+#: latest-post-shortcode.php:1353
+msgid "See below the available tile patterns and select to one you want."
+msgstr "Vedeți mai jos șabloanele cu elemente disponibile și selectați-l pe care doriți."
+
+#: latest-post-shortcode.php:1361 latest-post-shortcode.php:1363
+msgid "Custom 'Read more' message"
+msgstr "Mesaj personalizat ‘citește mai mult’"
+
+#: latest-post-shortcode.php:1364
+msgid "Do not use brackets for the custom read more message, these are shortcodes delimiters."
+msgstr "Nu folosiți paranteze drepte pentru mesajul personalizat citește mai mult, acestea sunt delimitatori de scurtcoduri."
+
+#: latest-post-shortcode.php:1373
+msgid "Lightbox Attributes"
+msgstr "Atribute Lightbox"
+
+#: latest-post-shortcode.php:1375
+msgid "If you want to use a lightbox for the images, you can setup below the image size to be available in the lightbox and the selector."
+msgstr "Dacă doriți să folosiți un lightbox pentru imagini, puteți seta mai jos mărimea de imagine care să fie disponibilă în lightbox și selectorul."
+
+#: latest-post-shortcode.php:1379
+msgid "Lightbox Image"
+msgstr "Imagine Lightbox"
+
+#: latest-post-shortcode.php:1382 latest-post-shortcode.php:1424
+msgid "full (original size)"
+msgstr "întreg (mărimea originală)"
+
+#: latest-post-shortcode.php:1393
+msgid "Selector attribute and value"
+msgstr "Atribut și valoare selector"
+
+#: latest-post-shortcode.php:1395
+msgid "Ex: class"
+msgstr "Ex: class"
+
+#: latest-post-shortcode.php:1398
+msgid "Ex: fancybox image"
+msgstr "Ex: fancybox image"
+
+#: latest-post-shortcode.php:1404
+msgid "This feature has been tested and is recommended to be used with Easy FancyBox plugin (>=1.8) or FooBox Image Lightbox plugin (>=2.6)."
+msgstr "Această funcționalitate a fost testată și se recomandă să se folosească cu modulul Easy FancyBox (>=1.8) sau modulul FooBox Image Lightbox (>=2.6)."
+
+#: latest-post-shortcode.php:1414
+msgid "Use Image"
+msgstr "Folosește imagine"
+
+#: latest-post-shortcode.php:1417
+msgid "No Image"
+msgstr "Fără imagine"
+
+#: latest-post-shortcode.php:1432
+msgid "Image Placeholder"
+msgstr "Înlocuitor imagine"
+
+#: latest-post-shortcode.php:1435
+msgid "Define an image to be used for the posts that do not have a featured image."
+msgstr "Definește o imagine care să se folosească pentru articolele care nu au o imagine reprezentativă."
+
+#: latest-post-shortcode.php:1435
+msgid "If you specify a list of images separated by comma, a random one from the list will be picked for each article that does not have a featured image."
+msgstr "Dacă specificați o listă de imagini separate cu virgulă, una va fi aleasă aleatoriu pentru fiecare articol care nu are o imagine reprezentativă."
+
+#: latest-post-shortcode.php:1444
+msgid "Content Fallback"
+msgstr "Alternativă la conținut"
+
+#: latest-post-shortcode.php:1447
+msgid "Add a custom text to be displayed if no content matches the settings."
+msgstr "Adăugați un text personalizat care să se afișeze dacă niciun conținut nu se potrivește setărilor."
+
+#: latest-post-shortcode.php:1457
+msgid "Tile Pattern"
+msgstr "Șablon element"
+
+#: latest-post-shortcode.php:1471
+msgid "markup"
+msgstr "marcatori"
+
+#: latest-post-shortcode.php:1479
+msgid "The icons represent the order of the HTML tags, the links are marked with red."
+msgstr "Iconițele reprezintă ordinea etichetelor HTML, legăturile sunt marcate cu roșu."
+
+#: latest-post-shortcode.php:1480
+msgid "You are using a custom output, the markup is handled programatically, in your custom code."
+msgstr "Se folosește un tip de afișare personalizat, codul HTML este manipulat programatic, în codul personalizat."
+
+#: latest-post-shortcode.php:1491
+msgid "Please note that if you are using a custom output template defined in your theme, the author, the taxonomies and the tags extra options will not function, since your custom template is overriding the output and the default behavior."
+msgstr "Vă rugăm să rețineți că dacă folosiți un tip de afișare personalizat definit in temă, setările de autor, taxonomii și etichete de la extra opțiuni nu se aplică, modul de afișare implicit al modulului este suprascris complet din codul personalizat."
+
+#: latest-post-shortcode.php:1498
+msgid "Author"
+msgstr "Autor"
+
+#: latest-post-shortcode.php:1499 latest-post-shortcode.php:3669
+msgid "Caption"
+msgstr "Legendă"
+
+#: latest-post-shortcode.php:1499 latest-post-shortcode.php:1500
+msgid "(only for attachments)"
+msgstr "(doar pentru atașamente)"
+
+#: latest-post-shortcode.php:1500 latest-post-shortcode.php:1544
+#: latest-post-shortcode.php:3652
+msgid "Mime Type"
+msgstr "Tip mime"
+
+#: latest-post-shortcode.php:1501
+msgid "Price"
+msgstr "Preț"
+
+#: latest-post-shortcode.php:1501 latest-post-shortcode.php:1502
+#: latest-post-shortcode.php:1504
+msgid "(only for products)"
+msgstr "(doar pentru produse)"
+
+#: latest-post-shortcode.php:1502
+msgid "Add to cart"
+msgstr "Adaugă în coș"
+
+#: latest-post-shortcode.php:1504
+msgid "Price + Add to cart"
+msgstr "Preț + Adaugă în coș"
+
+#: latest-post-shortcode.php:1510
+msgid "Tags"
+msgstr "Etichete"
+
+#: latest-post-shortcode.php:1524
+msgid "Do not display Uncategorized term"
+msgstr "Nu arăta termenul Uncategorized"
+
+#: latest-post-shortcode.php:1527
+msgid "Show only one term"
+msgstr "Arată doar un termen"
+
+#: latest-post-shortcode.php:1528
+msgid "Hide the taxonomy name from the list"
+msgstr "Ascunde numele taxonomie din listă"
+
+#: latest-post-shortcode.php:1531
+msgid "Display position"
+msgstr "Poziție afișare"
+
+#: latest-post-shortcode.php:1533
+msgid "default"
+msgstr "implicit"
+
+#: latest-post-shortcode.php:1546
+msgid "Show mime type as CSS class"
+msgstr "Afișare tip mime ca și clasă CSS"
+
+#: latest-post-shortcode.php:1547
+msgid "The extra options will apply only to attachment post type."
+msgstr "Extra opțiunile se vor aplica doar articolului de tip atașament."
+
+#: latest-post-shortcode.php:1551
+msgid "Line Break"
+msgstr "Linie nouă"
+
+#: latest-post-shortcode.php:1553
+msgid "clear the content below"
+msgstr "pune conținutul dedesubt"
+
+#: latest-post-shortcode.php:1554
+msgid "The extra options will clear the content below by adding a line break after the shorcode."
+msgstr "Opțiunea extra va pune conținutul dedesubt, prin adăugare unei linii noi după scurtcod."
+
+#: latest-post-shortcode.php:1564
+msgid "Cache"
+msgstr "Cache"
+
+#: latest-post-shortcode.php:1567
+msgid "Shortcode Cache"
+msgstr "Cache scurtcod"
+
+#: latest-post-shortcode.php:1569
+msgid "cache the shortcode result"
+msgstr "memorează în cache rezultatul scurtcodului"
+
+#: latest-post-shortcode.php:1570
+msgid "The cache can help you speed up the page load. The default duration of the shortcode cache is 30 days. If you need to reset the shortcode cache, use the reset button."
+msgstr "Memoria cache vă poate ajuta să accelerați încărcarea paginii. Durata implicită a memoriei cache a scurtcodului este de 30 de zile. Dacă trebuie să resetați memoria cache a scurtcodului, utilizați butonul de Resetare."
+
+#: latest-post-shortcode.php:1578
+msgid "Tiles Grid Options"
+msgstr "Opțiuni grilă elemente"
+
+#: latest-post-shortcode.php:1582 latest-post-shortcode.php:2065
+msgid "Height"
+msgstr "Înălțime"
+
+#: latest-post-shortcode.php:1583
+msgid "Padding"
+msgstr "Distanțare"
+
+#: latest-post-shortcode.php:1584
+msgid "Spacing"
+msgstr "Spațiere"
+
+#: latest-post-shortcode.php:1585
+msgid "Overlay Padding"
+msgstr "Distanțare strat"
+
+#: latest-post-shortcode.php:1588
+msgid "Default/Desktop"
+msgstr "Implicit/Desktop"
+
+#: latest-post-shortcode.php:1603
+msgid "Tablet"
+msgstr "Tabletă"
+
+#: latest-post-shortcode.php:1618
+msgid "Mobile"
+msgstr "Mobil"
+
+#: latest-post-shortcode.php:1635
+msgid "These options allow to specify the gap between tiles and the height for these. Use px, %, vw or vh as units."
+msgstr "Aceste opțiuni permit să se specifice spațiul dintre elemente și înălțimea acestora. Folosiți px, %, vw sau vh ca unități."
+
+#: latest-post-shortcode.php:1635 latest-post-shortcode.php:1759
+#: latest-post-shortcode.php:1798
+msgid "Leave empty if you want to use the defaults."
+msgstr "Lăsați gol dacă doriți să folosiți valorile implicite."
+
+#: latest-post-shortcode.php:1641
+msgid "Style"
+msgstr "Stil"
+
+#. Translators: %1$s - class, %2$s - class, %3$s - class, %4$s - class, %5$s - class, %6$s - class, %7$s - class, %8$s - class.
+#: latest-post-shortcode.php:1647
+msgid "Currently, the plugin offers out of the box support for two, three, four, five and six columns for the tiles and the overlay option. If, for example, you would like to display the tiles as four columns and the images as backgrounds, you can use `%1$s`. The content of the tiles can be aligned with `%6$s`, `%7$s` or `%8$s`. Extra options for the overlay usage: `%2$s` (for the overlay color), `%3$s` (to make the height of the tiles a bit bigger, so it fits more content). For the pagination alignment, there are two CSS classes that allow to center or align right the element: `%4$s` and `%5$s`."
+msgstr "În acest moment, modulul oferă în mod implicit suport pentru două, trei, patru, cinci și șase coloane pentru elemente și opțiunea de strat deasupra. Dacă, spre exemplu, veți dori să afișați elementele ca și patru coloane și imaginile ca și fundaluri, puteți folosi `%1$s`. Conținutul elementelor se pot alinia cu `%6$s`, `%7$s` sau `%8$s`. Opțiuni suplimentare pentru folosirea stratului: `%2$s` (pentru culoare statului), `%3$s` (pentru a face înălțimea elementelor mai mare, ca să încapă mai mult conținut). Pentru alinierea paginației, există două clase CSS ce permit centrarea sau alinierea la dreapta a elementului: `%4$s` și `%5$s`."
+
+#: latest-post-shortcode.php:1663
+msgid "CSS Class"
+msgstr "Clasă CSS"
+
+#: latest-post-shortcode.php:1665
+msgid "Ex: two-columns, three-columns, four-columns"
+msgstr "Ex: two-columns, three-columns, four-columns"
+
+#: latest-post-shortcode.php:1666
+msgid "The CSS class/classes you can use to customize the appearance of the shortcode output."
+msgstr "Clasa/clasele CSS care se pot folosi pentru personalizarea rezultatului afișat de către acest scurtcod."
+
+#: latest-post-shortcode.php:1673
+msgid "Columns Helper"
+msgstr "Ajutor pentru coloane"
+
+#: latest-post-shortcode.php:1687
+msgid "Output Helper"
+msgstr "Ajutor pentru afișare"
+
+#: latest-post-shortcode.php:1703
+msgid "Pagination horizontal alignment"
+msgstr "Aliniere orizontală pentru paginare"
+
+#: latest-post-shortcode.php:1706 latest-post-shortcode.php:1726
+msgid "left"
+msgstr "stânga"
+
+#: latest-post-shortcode.php:1707 latest-post-shortcode.php:1727
+#: latest-post-shortcode.php:1734
+msgid "center"
+msgstr "centru"
+
+#: latest-post-shortcode.php:1708 latest-post-shortcode.php:1728
+msgid "right"
+msgstr "dreapta"
+
+#: latest-post-shortcode.php:1709 latest-post-shortcode.php:1737
+msgid "space between"
+msgstr "spațiu între"
+
+#: latest-post-shortcode.php:1710
+msgid "first top"
+msgstr "primul sus"
+
+#: latest-post-shortcode.php:1711
+msgid "last bottom"
+msgstr "ultimul jos"
+
+#: latest-post-shortcode.php:1719
+msgid "Card options"
+msgstr "Opțiuni card"
+
+#: latest-post-shortcode.php:1722
+msgid "Aignment"
+msgstr "Aliniere"
+
+#: latest-post-shortcode.php:1724 latest-post-shortcode.php:2015
+msgid "horizontal"
+msgstr "orizontală"
+
+#: latest-post-shortcode.php:1732 latest-post-shortcode.php:2016
+msgid "vertical"
+msgstr "verticală"
+
+#: latest-post-shortcode.php:1735
+msgid "start"
+msgstr "început"
+
+#: latest-post-shortcode.php:1736
+msgid "end"
+msgstr "sfârșit"
+
+#: latest-post-shortcode.php:1738 latest-post-shortcode.php:1944
+#: latest-post-shortcode.php:1965
+msgid "auto"
+msgstr "auto"
+
+#: latest-post-shortcode.php:1744
+msgid "Font size"
+msgstr "Mărime font"
+
+#: latest-post-shortcode.php:1747 latest-post-shortcode.php:1770
+msgid "card text"
+msgstr "text"
+
+#: latest-post-shortcode.php:1751 latest-post-shortcode.php:1777
+msgid "card title"
+msgstr "titlu"
+
+#: latest-post-shortcode.php:1757
+msgid "Ex: 1rem, 24px, 2em, clamp(1rem, 0.6rem + 1.25vw, 1.4rem), etc."
+msgstr "Ex: 1rem, 24px, 2em, clamp(1rem, 0.6rem + 1.25vw, 1.4rem), etc."
+
+#: latest-post-shortcode.php:1758
+msgid "Use px, %, vw or vh as units."
+msgstr "Folosiți px, %, vw sau vh ca unități."
+
+#: latest-post-shortcode.php:1764
+msgid "Colors"
+msgstr "Culori"
+
+#: latest-post-shortcode.php:1784
+msgid "background"
+msgstr "fundal"
+
+#: latest-post-shortcode.php:1797
+msgid "Ex: #fff, rbga(255,255,255, 0.5), etc."
+msgstr "Ex: #fff, rbga(255,255,255, 0.5), etc."
+
+#: latest-post-shortcode.php:1798
+msgid "Also, if you want to apply the colors, you should remove the card generic aspect."
+msgstr "De asemenea, dacă doriți să aplicați culorile, trebuie să înlăturați aspectul generic al cardului."
+
+#: latest-post-shortcode.php:1803
+msgid "Shadow"
+msgstr "Umbră"
+
+#: latest-post-shortcode.php:1806
+msgid "card shadow"
+msgstr "umbră card"
+
+#: latest-post-shortcode.php:1808 latest-post-shortcode.php:1815
+#: latest-post-shortcode.php:1827 latest-post-shortcode.php:1834
+#: latest-post-shortcode.php:1874 latest-post-shortcode.php:1902
+#: latest-post-shortcode.php:1913 latest-post-shortcode.php:1924
+#: latest-post-shortcode.php:2026 latest-post-shortcode.php:2050
+#: latest-post-shortcode.php:2127 latest-post-shortcode.php:2136
+#: latest-post-shortcode.php:2145 latest-post-shortcode.php:2154
+#: latest-post-shortcode.php:2203 latest-post-shortcode.php:2212
+#: latest-post-shortcode.php:2243 latest-post-shortcode.php:2252
+msgid "no"
+msgstr "nu"
+
+#: latest-post-shortcode.php:1813
+msgid "title shadow"
+msgstr "umbră titlu"
+
+#: latest-post-shortcode.php:1822
+msgid "Hover Effect"
+msgstr "Efect de hover"
+
+#: latest-post-shortcode.php:1825
+msgid "image zoom"
+msgstr "magnificare imagine"
+
+#: latest-post-shortcode.php:1832
+msgid "card highlight"
+msgstr "evidențiere card"
+
+#: latest-post-shortcode.php:1841
+msgid "Title options"
+msgstr "Opțiuni titlu"
+
+#: latest-post-shortcode.php:1844
+msgid "no decoration"
+msgstr "fără decorație"
+
+#: latest-post-shortcode.php:1846 latest-post-shortcode.php:1853
+msgid "inherit"
+msgstr "moștenit"
+
+#: latest-post-shortcode.php:1851
+msgid "uppercase"
+msgstr "majuscule"
+
+#: latest-post-shortcode.php:1860
+msgid "Aspect"
+msgstr "Aspect"
+
+#: latest-post-shortcode.php:1863
+msgid "generic aspect"
+msgstr "aspect generic"
+
+#: latest-post-shortcode.php:1865
+msgid "-- unset --"
+msgstr "-- nesetat --"
+
+#: latest-post-shortcode.php:1866
+msgid "dark"
+msgstr "închis"
+
+#: latest-post-shortcode.php:1867
+msgid "light"
+msgstr "deschis"
+
+#: latest-post-shortcode.php:1868
+msgid "no overlay"
+msgstr "fără strat"
+
+#: latest-post-shortcode.php:1872
+msgid "border radius"
+msgstr "rotunjire chenar"
+
+#: latest-post-shortcode.php:1881
+msgid "Image opacity"
+msgstr "Opacitate imagine"
+
+#: latest-post-shortcode.php:1898
+msgid "Tall card"
+msgstr "Card înalt"
+
+#: latest-post-shortcode.php:1909
+msgid "Image spacing"
+msgstr "Spațiere imagine"
+
+#: latest-post-shortcode.php:1920
+msgid "Stacked on mobile"
+msgstr "Stivuit pe mobil"
+
+#: latest-post-shortcode.php:1931
+msgid "Image size"
+msgstr "Dimensiune imagine"
+
+#: latest-post-shortcode.php:1940
+msgid "Card Aspect Ratio"
+msgstr "Raport de aspect pentru card"
+
+#: latest-post-shortcode.php:1945 latest-post-shortcode.php:1966
+msgid "1:1 (square)"
+msgstr "1:1 (pătrat)"
+
+#: latest-post-shortcode.php:1946 latest-post-shortcode.php:1967
+msgid "landscape"
+msgstr "peisaj"
+
+#: latest-post-shortcode.php:1951 latest-post-shortcode.php:1972
+msgid "portrait"
+msgstr "portret"
+
+#: latest-post-shortcode.php:1952
+msgid "none"
+msgstr "nesetat"
+
+#: latest-post-shortcode.php:1961
+msgid "Image Aspect Ratio"
+msgstr "Raport de aspect pentru imagine"
+
+#: latest-post-shortcode.php:1999
+msgid "Slider Settings"
+msgstr "Setări Carusel"
+
+#: latest-post-shortcode.php:2002
+msgid "Wrapper Element"
+msgstr "Element container"
+
+#: latest-post-shortcode.php:2012
+msgid "Slides Transition"
+msgstr "Tranziție carusel"
+
+#: latest-post-shortcode.php:2017
+msgid "fade"
+msgstr "transparență"
+
+#: latest-post-shortcode.php:2023
+msgid "Center Mode"
+msgstr "Mod centru"
+
+#: latest-post-shortcode.php:2027
+msgid "center mode"
+msgstr "mod centru"
+
+#: latest-post-shortcode.php:2034
+msgid "The center mode is intended to works for the cases when you are showing more slides per row, and works better when you use an odd number of slides (3, 5, etc.), so, if your slider is presenting one slide at a time, you might want to switch this option off."
+msgstr "Modul centru va funcționa când se afișează mai multe diapozitiv pe rând și rezultatul este mai frumos când se folosesc numere impare de elemente (3, 5, etc.), așadar, dacă acest carusel este setat să arate un singur diapozitiv pe rând, setarea de mod centru trebuie dezactivată."
+
+#: latest-post-shortcode.php:2038
+msgid "Center Mode Padding"
+msgstr "Spațiere mod centru"
+
+#: latest-post-shortcode.php:1880
+msgid "The value in pixels for the padding of the center slide."
+msgstr "Valoarea în pixeli a spațierii pentru diapozitivul central."
+
+#: latest-post-shortcode.php:2047
+msgid "Auto Play"
+msgstr "Tranziție automată"
+
+#: latest-post-shortcode.php:2057
+msgid "Speed"
+msgstr "Viteză"
+
+#: latest-post-shortcode.php:2060
+msgid "Autoplay speed in milliseconds."
+msgstr "Viteza pentru tranziția automată în milisecunde."
+
+#: latest-post-shortcode.php:2068
+msgid "adaptive"
+msgstr "adaptivă"
+
+#: latest-post-shortcode.php:2069
+msgid "fixed"
+msgstr "fixă"
+
+#: latest-post-shortcode.php:2071
+msgid "This depends on the image size you select"
+msgstr "Valoare dependentă de mărimea imaginii selectate"
+
+#: latest-post-shortcode.php:2076
+msgid "Maximum Height"
+msgstr "Înălțime maximă"
+
+#: latest-post-shortcode.php:2079
+msgid "Provide the value in pixels for the maximum height of the slider."
+msgstr "Furnizați valoarea în pixeli pentru înălțimea maximă a caruselului."
+
+#: latest-post-shortcode.php:2084
+msgid "Show Slide Overlay"
+msgstr "Arată strat peste diapozitiv"
+
+#: latest-post-shortcode.php:2087
+msgid "title + few chars from the excerpt"
+msgstr "titlu + câteva caractere din rezumat"
+
+#: latest-post-shortcode.php:2088
+msgid "only title"
+msgstr "doar titlu"
+
+#: latest-post-shortcode.php:2089
+msgid "only few chars from the excerpt"
+msgstr "doar câteva caractere din extras"
+
+#: latest-post-shortcode.php:2090
+msgid "no overlay, just the image"
+msgstr "fără strat peste diapozitiv, doar imaginea"
+
+#: latest-post-shortcode.php:2092
+msgid "The slide will display over the image the title and few chars from the excerpt (what you define for the Post Appearance > Chars Limit below)."
+msgstr "Diapozitivul va prezenta titlul și câteva caractere din extras peste imagine (ce se selectează mai jos la Aspect articol > Limită caractere)."
+
+#: latest-post-shortcode.php:2096
+msgid "Slides Gaps"
+msgstr "Spații diapozitive"
+
+#: latest-post-shortcode.php:2099
+msgid "no gaps"
+msgstr "fără spații"
+
+#: latest-post-shortcode.php:2100
+msgid "5px"
+msgstr "5px"
+
+#: latest-post-shortcode.php:2101
+msgid "10px"
+msgstr "10px"
+
+#: latest-post-shortcode.php:2102
+msgid "15px"
+msgstr "15px"
+
+#: latest-post-shortcode.php:2103
+msgid "20px"
+msgstr "20px"
+
+#: latest-post-shortcode.php:2104
+msgid "25px"
+msgstr "25px"
+
+#: latest-post-shortcode.php:2105
+msgid "30px"
+msgstr "30px"
+
+#: latest-post-shortcode.php:2106
+msgid "50px"
+msgstr "50px"
+
+#: latest-post-shortcode.php:2108
+msgid "This is useful when you want to display more visible slides in the row."
+msgstr "Util când se afișează mai multe diapozitive pe rând."
+
+#: latest-post-shortcode.php:2112 latest-post-shortcode.php:2188
+#: latest-post-shortcode.php:2228
+msgid "Slides to Show"
+msgstr "Diapozitive vizibile"
+
+#: latest-post-shortcode.php:2118 latest-post-shortcode.php:2194
+#: latest-post-shortcode.php:2234
+msgid "Slides to Scroll"
+msgstr "Diapozitive pe tranziție"
+
+#: latest-post-shortcode.php:2124 latest-post-shortcode.php:2200
+#: latest-post-shortcode.php:2240
+msgid "Show Dots"
+msgstr "Arată puncte"
+
+#: latest-post-shortcode.php:1972 latest-post-shortcode.php:2048
+#: latest-post-shortcode.php:2088
+msgid "Infinite Scroll"
+msgstr "Tranziție infinită"
+
+#: latest-post-shortcode.php:2142
+msgid "Next/Previous"
+msgstr "Următorul/precedentul"
+
+#: latest-post-shortcode.php:2151
+msgid "Responsive"
+msgstr "Sensibil"
+
+#: latest-post-shortcode.php:2163
+msgid "Responsive Slider Settings"
+msgstr "Setări carusel sensibil"
+
+#: latest-post-shortcode.php:2166
+msgid "Respond to"
+msgstr "Răspunde la"
+
+#: latest-post-shortcode.php:2169
+msgid "window"
+msgstr "fereastră"
+
+#: latest-post-shortcode.php:2171
+msgid "min"
+msgstr "minimum"
+
+#: latest-post-shortcode.php:2174
+msgid "Width that responsive object responds to, the min (default) option means the smaller of the window or slider."
+msgstr "Lățimea la care va fi sensibil caruselul, opțiunea de minimum (opțiunea implicită) face caruselul să se schimbe la lățimea cea mai mică (dintre lățimea ferestrei și lățimea caruselului)."
+
+#: latest-post-shortcode.php:2179
+msgid "Tablet Settings"
+msgstr "Setări pentru tabletă"
+
+#: latest-post-shortcode.php:2182 latest-post-shortcode.php:2222
+msgid "Breakpoint"
+msgstr "Breakpoint"
+
+#: latest-post-shortcode.php:2219
+msgid "Mobile Settings"
+msgstr "Setări pentru mobil"
+
+#: latest-post-shortcode.php:2511 latest-post-shortcode.php:2537
+#: latest-post-shortcode.php:2539
+msgid "Page"
+msgstr "Pagina"
+
+#: latest-post-shortcode.php:2511
+msgid "of"
+msgstr "din"
+
+#: latest-post-shortcode.php:2514 latest-post-shortcode.php:2516
+#: latest-post-shortcode.php:2532 latest-post-shortcode.php:2534
+msgid "First"
+msgstr "Prima"
+
+#: latest-post-shortcode.php:2521 latest-post-shortcode.php:2523
+#: latest-post-shortcode.php:2526
+msgid "Previous"
+msgstr "Precedenta"
+
+#: latest-post-shortcode.php:2544 latest-post-shortcode.php:2546
+msgid "Next"
+msgstr "Următoarea"
+
+#: latest-post-shortcode.php:2549 latest-post-shortcode.php:2551
+msgid "Last"
+msgstr "Ultima"
+
+#. Translators: %s the date difference.
+#: latest-post-shortcode.php:2584
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "acum %s"
+
+#: latest-post-shortcode.php:3616
+msgid "By"
+msgstr "De"
+
+#: latest-post-shortcode.php:4727
+msgid "Plugin URL"
+msgstr "URL modul"
+
+#: latest-post-shortcode.php:4796 latest-post-shortcode.php:4871
+#: latest-post-shortcode.php:4872
+msgid "A huge thanks in advance!"
+msgstr "Multe mulțumiri în avans!"
+
+#. Translators: %1$s - plugins URL, %2$s - heart icon, %3$s - extensions URL, %4$s - star icon, %5$s - maybe PRO details.
+#: latest-post-shortcode.php:4800
+msgid "%5$sCheck out my other <a href=\"%1$s\" target=\"_blank\" rel=\"noreferrer\">%2$s free plugins</a> on WordPress.org and the <a href=\"%3$s\" target=\"_blank\" rel=\"noreferrer\">%4$s other extensions</a> available!"
+msgstr "%5$sVezi și celelalte <a href=\"%1$s\" target=\"_blank\" rel=\"noreferrer\">%2$s module gratuite</a> ale mele pe WordPress.org și <a href=\"%3$s\" target=\"_blank\" rel=\"noreferrer\">%4$s extensiile premium</a> disponibile!"
+
+#. Translators: %1$s - plugin name.
+#: latest-post-shortcode.php:4818
+msgid "%1$s plugin was activated!"
+msgstr "Modulul %1$s a fost activat!"
+
+#. Translators: %1$s - donate URL, %2$s - rating, %3$s - thanks.
+#: latest-post-shortcode.php:4829 latest-post-shortcode.php:4869
+msgid "If you find the plugin useful and would like to support my work, please consider making a <a href=\"%1$s\" target=\"_blank\">donation</a>. It would make me very happy if you would leave a %2$s rating. %3$s"
+msgstr "Dacă acest modul îți este folositor și ai dori să îmi sprijini munca, m-aș bucura dacă ai face o <a href=\"%1$s\" target=\"_blank\">donație</a>. M-ar bucura mult dacă ai lăsa o recenzie de %2$s. %3$s"
+
+#: latest-post-shortcode.php:5001
+msgid "let WordPress decide when to load the LPS assets"
+msgstr "lasă WordPress să decidă când the încarce resursele LPS"
+
+#: latest-post-shortcode.php:5005
+msgid "always load the LPS assets"
+msgstr "încarcă mereu resursele LPS"
+
+#: lps-block/lps-block.php:224
+msgid "The shortcode found no results. If you provided a fallback message that will be shown on the front-end."
+msgstr "Scurtcodul nu a găsit niciun rezultat. Dacă ați furnizat un mesaj alternativ, acesta se va afișa în partea frontală."
+
+#: lps-block/build/index.js:1
+msgid "Latest Post Shortcode Settings"
+msgstr "Setări Scurtcod Articole Recente"
+
+#: lps-block/build/index.js:1
+msgid "Click the button below to use the shortcode UI, or change the attributes manually."
+msgstr "Apăsați butonul de mai jos pentru a folosi interfața de utilizare a scurtcodului, sau schimbați atributele manual."
+
+#: lps-block/build/index.js:1
+msgid "Shortcode Options"
+msgstr "Opțiuni scurtcod"
+
+#: lps-block/build/index.js:1
+msgid "LPS / Latest Post Shortcode"
+msgstr "LPS / Cod Rapid Articole Recente"
+
+#: lps-block/build/index.js:1
+msgid "Dynamic custom selection"
+msgstr "Selecție dinamică personalizată"
+
+#: lps-block/build/index.js:1
+msgid "Overlay Cards"
+msgstr "Carduri strat"
+
+#: lps-block/build/index.js:1
+msgid "Vertical Cards"
+msgstr "Carduri verticale"
+
+#: lps-block/build/index.js:1
+msgid "Horizontal Cards"
+msgstr "Carduri orizontale"

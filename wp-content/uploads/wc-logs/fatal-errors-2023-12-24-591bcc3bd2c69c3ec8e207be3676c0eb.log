@@ -1,0 +1,23 @@
+2023-12-24T12:45:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\mediateur\wp-content\plugins\essential-addons-for-elementor-lite\includes\Template\Woocommerce\Cart\Woo_Cart_Helper.php on line 8
+
+2023-12-24T20:31:31+00:00 CRITICAL Uncaught Error: Class "WPForms\Integrations\LiteConnect\LiteConnect" not found in C:\xampp\htdocs\mediateur\wp-content\plugins\wpforms-lite\src\Lite\Integrations\LiteConnect\LiteConnect.php:10
+Stack trace:
+#0 C:\xampp\htdocs\mediateur\wp-content\plugins\post-grid-elementor-addon\vendor\composer\ClassLoader.php(582): include()
+#1 C:\xampp\htdocs\mediateur\wp-content\plugins\post-grid-elementor-addon\vendor\composer\ClassLoader.php(433): Composer\Autoload\{closure}('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mediateur\wp-content\plugins\wpforms-lite\src\Lite\Admin\Education\LiteConnect.php(36): Composer\Autoload\ClassLoader->loadClass('WPForms\\Lite\\In...')
+#3 C:\xampp\htdocs\mediateur\wp-content\plugins\wpforms-lite\src\Lite\Admin\Education\LiteConnect.php(62): WPForms\Lite\Admin\Education\LiteConnect->allow_load()
+#4 C:\xampp\htdocs\mediateur\wp-content\plugins\wpforms-lite\src\WPForms.php(321): WPForms\Lite\Admin\Education\LiteConnect->init()
+#5 C:\xampp\htdocs\mediateur\wp-includes\class-wp-hook.php(324): WPForms\WPForms->WPForms\{closure}('')
+#6 C:\xampp\htdocs\mediateur\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\mediateur\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\mediateur\wp-content\plugins\wpforms-lite\src\WPForms.php(280): do_action('wpforms_loaded')
+#9 C:\xampp\htdocs\mediateur\wp-includes\class-wp-hook.php(324): WPForms\WPForms->objects('')
+#10 C:\xampp\htdocs\mediateur\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\mediateur\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\mediateur\wp-settings.php(506): do_action('plugins_loaded')
+#13 C:\xampp\htdocs\mediateur\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\mediateur\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\mediateur\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\mediateur\wp-content\plugins\wpforms-lite\src\Lite\Integrations\LiteConnect\LiteConnect.php on line 10
+
